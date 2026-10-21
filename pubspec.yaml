@@ -1,0 +1,25 @@
+name: aquarium
+description: A 2D mobile aquarium simulator.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.11.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.18.0
+  flutter_local_notifications: ^17.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  test: ^1.25.8
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/config/
